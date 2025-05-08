@@ -1,7 +1,8 @@
-""" Moduł zawiera funkcje pomocnicze """
+"""Moduł zawiera funkcje pomocnicze"""
+
 
 # przykladowe funkcje utils .py
-def add ( a: int , b: int) -> int:
+def add(a: int, b: int) -> int:
     """
     Adds two integers.
 
@@ -14,7 +15,8 @@ def add ( a: int , b: int) -> int:
     """
     return a + b
 
-def subtract ( a: int , b: int) -> int:
+
+def subtract(a: int, b: int) -> int:
     """
     Subtracts the second integer from the first.
 
@@ -27,7 +29,8 @@ def subtract ( a: int , b: int) -> int:
     """
     return a - b
 
-def multiply ( a: int , b: int) -> int:
+
+def multiply(a: int, b: int) -> int:
     """
     Multiplies two integers.
 
@@ -40,7 +43,8 @@ def multiply ( a: int , b: int) -> int:
     """
     return a * b
 
-def divide ( a: int , b: int) -> float :
+
+def divide(a: int, b: int) -> float:
     """
     Divides the first integer by the second.
 
